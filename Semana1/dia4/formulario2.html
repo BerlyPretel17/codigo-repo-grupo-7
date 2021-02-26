@@ -1,52 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario2</title>
-</head>
-<body>
+  </head>
+  <body>
     <form action="">
-           <div>
-               <input type="text" id="name-madre" name="name-madre">
-               <label for="name-madre">Nombre Madre</label>
-           </div> 
-           <br>
-           <div>            
-            <label for="horas-code">Horas Programando</label>
-            <input type="number" id="horas-code" name="horas-code">
-        </div> 
-        <div>
-            <h4>Mascota Favorita</h4>
-        </div>
-        <div>
-             <input type="radio" name="mascota" id="perro" value="perro">
-             <label for="mascota">Perros</label>
-             <br>
-             <input type="radio" name="mascota" id="gato" value="gato">
-             <label for="genero">Gatos</label>
-            
-        </div>
+      <div>
+        <input type="text" id="name-madre" name="name-madre" />
+        <label for="name-madre">Nombre Madre</label>
+      </div>
+      <br />
+      <div>
+        <label for="horas-code">Horas Programando</label>
+        <input type="number" id="horas-code" name="horas-code" />
+      </div>
+      <div>
+        <h4>Mascota Favorita</h4>
+      </div>
+      <div>
+        <input type="radio" name="mascota" id="perro" value="perro" />
+        <label for="mascota">Perros</label>
+        <br />
+        <input type="radio" name="mascota" id="gato" value="gato" />
+        <label for="genero">Gatos</label>
+      </div>
 
-        <div>
-            <h4>Comidas Favoritas</h4>
-        </div>
-        
-        <div>
-            <input type="checkbox" name="lomo" id="lomo" value="lomo">
-            <label for="lomo">Lomito Saltado</label>
-            <br>
-            <input type="checkbox" name="pollo" id="pollo" value="pollo">
-            <label for="pollo">Pollito a la brasa</label>
-            <br>
-            <input type="checkbox" name="soya" id="soya" value="soya">
-            <label for="soya">Soya</label>
-            
-        </div>
+      <div>
+        <h4>Comidas Favoritas</h4>
+      </div>
+
+      <div>
+        <input type="checkbox" name="lomo" id="lomo" value="lomo" />
+        <label for="lomo">Lomito Saltado</label>
+        <br />
+        <input type="checkbox" name="pollo" id="pollo" value="pollo" />
+        <label for="pollo">Pollito a la brasa</label>
+        <br />
+        <input type="checkbox" name="soya" id="soya" value="soya" />
+        <label for="soya">Soya</label>
+      </div>
+      <br />
+      <div>
+        <label for="coches">Marca de Carros</label>
+        <select name="coches" id="coches" size="2">
+          <option value="volvo">volvo</option>
+          <option value="subaru">Subaru</option>
+          <option value="fiat">Fiat</option>
+          <option value="lamborghini">Lamborghini</option>
+        </select>
+      </div>
+      <div>
+        <label for="lenguaje">Lenguajes de Programación</label>
+        <select name="lenguaje" id="lenguaje" size="2">
+          <option value="volvo">volvo</option>
+          <option value="subaru">Subaru</option>
+          <option value="fiat">Fiat</option>
+          <option value="lamborghini">Lamborghini</option>
+        </select>
+      </div>
+      <br>
+      <br>
+      <div>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10">Desarrollo  Frontend de codiGo</textarea>
+        <button type="button" onclick="alert('Hola compañeros')">Hazme clic dude</button>
 
 
+      </div>
     </form>
-    
-</body>
+  </body>
 </html>
