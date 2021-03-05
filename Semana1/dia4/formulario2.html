@@ -7,7 +7,7 @@
     <title>Formulario2</title>
   </head>
   <body>
-    <form action="">
+    <form action="" oninput="x.value = parseInt(a.value) + parseInt(b.value)">
       <div>
         <input type="text" id="name-madre" name="name-madre" />
         <label for="name-madre">Nombre Madre</label>
@@ -66,7 +66,15 @@
       <div>
         <textarea name="mensaje" id="mensaje" cols="30" rows="10">Desarrollo  Frontend de codiGo</textarea>
         <button type="button" onclick="alert('Hola compañeros')">Hazme clic dude</button>
-
+      </div>
+      <div>
+        
+            0 
+            <input type="range" id="a" name="a" value="50">
+            100
+            <input type="number" id="b" name="b" value="50">
+            <output name="x" for="a b"></output>
+          
 
       </div>
     </form>

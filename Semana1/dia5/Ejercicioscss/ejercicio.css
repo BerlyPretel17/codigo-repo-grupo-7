@@ -1,0 +1,37 @@
+body {
+    background-color: rosybrown;
+}
+#nombre {
+    font-size: 80px;
+    text-align: center;
+    color: purple;
+}
+.imagen {
+    text-align: center;
+    border-radius: 100%;
+}
+imagen:hover {
+    text-align: start;
+    height: 400px;
+
+}
+.descripcion {
+    background-color: rgb(118, 228, 136);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 200;
+}
+.titulo {
+    color: darkmagenta;
+    font-size: 60px;
+}
+#pie {
+    background-color: firebrick;
+    text-align: center;
+    font-size: 50px;
+}
+.input-estilo {
+    background-color: blue;
+    caret-color: salmon;
+    color: rgb(212, 11, 11);
+}

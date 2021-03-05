@@ -1,0 +1,43 @@
+div {
+    background-color: yellow;
+    font-weight: bold;
+    width: 400px;
+    border: 10px solid blue;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+main {
+    text-align: center;
+    height: 1000px;
+    width: 1000;
+    background-color: cadetblue;
+}
+
+.titulo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: coral;
+    font-weight: bolder;
+}
+
+
+.imagen {
+    width: 400px;
+    height: 200px;
+    border-radius: 100%;
+    border: 10px solid grey;
+    margin-bottom: 30px ;
+}
+h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid blue;
+}
+h3 {
+    background-color: khaki;
+
+}

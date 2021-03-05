@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+.name {
+    color: goldenrod;
+    
+}
+
+.red {
+    color: red;
+}   
+.blue {
+    color: blue;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color: green;
+}
+.brown {
+    color: brown;
+}
+.song {
+    font-family: 'Stick', sans-serif;
+}
+
+.parte1{
+    color: blue;
+    font-style: oblique;
+}
+.parte2{
+    color: red;
+    font-style:italic ;
+}
+.parte3{
+    color: chocolate;
+    font-style: initial;
+}
+.parte4{ 
+    color: cyan;
+}
+
+.nombre {
+    font-weight: bolder;
+    font-size: 50px;
+    color: mediumblue;
+}
+.nombre2 {
+    font-weight: bolder;
+    font-size: 50px;
+    color: yellowgreen;
+}
+.ape1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: tomato;
+}
+.ape2{
+    font-weight: bolder;
+    font-size: 50px;
+    color:brown;
+}
+sub {
+    color: darkgray;
+}
+
+.contenedor 

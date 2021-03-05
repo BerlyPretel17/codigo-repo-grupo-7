@@ -1,0 +1,49 @@
+main {
+    width: 800px;
+    height: 700px;
+    background: url(./assets/image/luna3.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid red;
+}
+h1{
+    padding-top: 1cm;
+    color: white;
+}
+/.caja1{
+    width: 580px;
+    height: 200px;        
+   
+    box-sizing: border-box;
+     
+}
+img {
+    width: 580px;
+    height: 200px;   
+    border: 10px solid transparent;
+    border-image: linear-gradient(to right, rgb(167, 110, 4) 0%, grey 100%) 1;
+       
+     
+    
+}
+.caja2{
+    width: 580px;
+    height: 300px;
+    margin-top: 15px;
+   
+    border: 10px dashed grey;
+    background: url(./assets/image/wolf.jpg);
+    background-size: contain;
+    box-sizing: content-box;
+    overflow: hidden;
+    
+}
+
+h2{
+    height: 300px;
+    color: rgb(228, 248, 11);
+    box-sizing: border-box;
+    overflow-y: scroll;
+    
+
+}
