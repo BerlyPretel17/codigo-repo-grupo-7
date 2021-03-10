@@ -1,0 +1,34 @@
+body {
+    background-color: teal;
+}
+
+
+/* pantallas extra pequeñas (celulares)hasta 600 px */
+@media only screen and (min-width:600px){
+    body{
+        background-color: tomato;
+    }
+}
+
+/* pantallas PEQUEÑAS (tablets en modo portrait(vertical)y celulares grandes, que tienen un ancho mayor a 600px)  */
+@media only screen and (min-width:600px){
+     body {
+         background-color: violet;
+     }
+}
+
+/* pantallas de tamaño MEDIO (tablaets modo landscape(horizontal), es decir tienen un ancho mayor que o igual a 768px) */
+
+@media only screen and (min-width:768px){
+    body{
+        background-color: blue;
+    }
+}
+
+/* pantallas MUY GRANDES (laptops gamer, monitores de escritorio), es decir qque tienen un ancho mayor o igual a 1200px */
+
+@media only screen and (min-width:1200px){
+    body{
+        background-color: yellowgreen;
+    }
+}

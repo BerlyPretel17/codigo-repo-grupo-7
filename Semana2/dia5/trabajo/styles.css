@@ -1,0 +1,16 @@
+.contenedor {
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.imagen{
+    text-align: center;
+    filter: grayscale();
+    
+}
+img{
+    height: 500px;
+    width: 800px;
+}
