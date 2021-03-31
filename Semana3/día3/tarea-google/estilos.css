@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+header {
+    flex-direction: row;
+    display: flex;   
+    justify-content: flex-end;
+    margin: 5%;
+
+    
+}
+.correo {
+    margin: 8px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.img {
+    margin: 8px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.logo{
+    width: 30px;
+    margin: -7px;
+    padding-right: 25px;
+    margin-top: -8px;
+}
+.boton {
+    margin: 0;
+    width: 120px;
+    padding: 7px;
+    border: none;
+    background-color: rgb(70, 131, 240);
+    color: white;
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+}
+#google {
+    margin: 0;
+    display: flex;      
+    align-items: center; 
+    flex-direction: column;
+    
+}
+.logo-google {
+    width: 300px;
+    padding: 20px;   
+}
+
+.texto {
+    width: 600px;
+    height: 35px;      
+    border: 1px solid rgb(70, 131, 240);
+    border-radius: 10px;
+    display: flex;
+    background-image: url('assets/image/microphone.svg');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-x: right;
+    background-position-y: 5px ;
+}
+
+.botones {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    
+}
+
+.buscar {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Noto Sans', sans-serif;
+}
+.suerte {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Noto Sans', sans-serif;
+}
+.pie {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+}

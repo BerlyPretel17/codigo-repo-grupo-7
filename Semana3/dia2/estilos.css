@@ -108,13 +108,97 @@ footer {
     width: 30px;
     margin: 10px;
   }
-  @media only screen and (min-width: 600px){
-    header {
-      background-color: blue;
+  @media only screen and (max-width: 600px){
+    #foto {
+      width: 150px;
     }
+    #nombre{
+        margin-right: 20px ;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    a {
+        font-size: small;        
+    }
+    #botones {
+        text-align: center;
+        display: flex;
+        flex-direction: column;        
+    }
+    button {
+        padding: 3px;
+        font-size: 15px;
+    }
+    #parrafo{
+      font-size: medium;
+    margin: 30px;
+    padding: 10px;
+    }
+    #waves {
+      margin-bottom: -5px;
+    }
+    #sub-footer-1{
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    justify-content: flex-start;
+    }
+    .texto-footer {
+      font-size: small;
+    
+    }
+    
+  }
+
+  @media only screen and (min-width: 768px){
+      #foto {
+          border-radius: 12px;
+          width: 200px;
+          height: auto;
+      }
+      #nombre {
+          margin-right: 10px;
+          margin-left: 10px;
+          font-size: 50px;
+      }
+      a {
+        font-size: medium;        
+    }
+    #botones {
+        text-align: center;
+        display: flex;
+        flex-direction: column;  
+        align-items: center;      
+    }
+    button {
+        padding: 20px;
+        font-size: 20px;
+    }
+    #parrafo{
+      font-size: xx-large;
+   
+    opacity: 1;
+    }
+    #waves {
+        color: brown;
+        margin-bottom: -4px;
+    }
+    #sub-footer-1{
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    justify-content: flex-start;
+    }
+    .texto-footer {
+      font-size: medium;
+    
+    }
+
   }
   
-  @media only screen and (min-width: 600px){
+  /* @media only screen and (min-width: 600px){
       html{
         background: url("./assets/images/avatar.jpg") no-repeat center center fixed;
         background-size: cover;
@@ -129,7 +213,7 @@ footer {
     #foto {
       display: none;
     }
-  }  
+  }   */
     
   
   

@@ -1,0 +1,53 @@
+html {
+    display: flex;
+    justify-content: center;
+    width: auto;    
+    text-align: center;
+    background-image: url(./assets/images/acdc-ac-dc-rock-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.separate {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.selector {
+    height: auto;
+    width: auto;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif; 
+    padding: 20px;   
+}
+
+.seleccion {
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+    height: 30px;
+    width: 150px;
+    border-color: rgb(128, 128, 128);
+    
+}
+
+.letra {
+    height: auto;   
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    border: 2px solid white;
+    overflow-y: scroll ;
+}
+
+h1 {
+    color: white;
+}
+p {
+    font-size: large;
+    color: rgb(255, 136, 0);
+}
